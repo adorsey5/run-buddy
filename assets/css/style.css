@@ -1,0 +1,57 @@
+ /* Remove browser-enforced styles & Applies CSS default vaules for every element */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  /* Applies 20px to the top and bottom, then 35px to the left and right */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+  }
+  /* Applies font styles and color only to <h1> header */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+  }
+  /* Applies styles and color to all of the <a> elements inside the header */
+header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  /* Moved the <nav> elements to the right side of the page.*/
+  /* Applies 7px to the top and bottom, then 0px to the left and right */
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+
+  /* Moved the <nav> elements inline*/
+  header nav ul li {
+    display: inline;
+  }
+
+  /* Styled <a> elements inside the parent elements (header, nav, ul, and li)*/
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+/* Display <h1> elements inline with RUN BUDDY <a> element*/
+/* Style color, text, and margin*/
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+  }
