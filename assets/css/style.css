@@ -47,11 +47,32 @@ header a {
   }
 
 /* Display <h1> elements inline with RUN BUDDY <a> element*/
-/* Style color, text, and margin*/
+/* Style <header> with color, text, and margin*/
   header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
     display: inline;
+  }
+
+  /* Style <footer> with color, text, and margin*/
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+  footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+  footer a {
+    color: #024e76;
   }
