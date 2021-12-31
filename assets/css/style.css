@@ -116,6 +116,38 @@ section {
 }
     /* Hero Style End */
 
+/* WHAT WE DO SECTION */
+ 
+.intro {
+  text-align: center;
+}
+/* Styled the <h2> element*/ 
+.intro h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  border-color: #fce138;
+}
+/* Styled the the center-aligned heading and sized the yellow border in line the block element*/
+.intro h2 {
+  /* add this alongside your other declarations */
+  display: inline-block;
+}
+/* Styled the intro. text*/ 
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  font-size: 20px;
+}
+/* Re-centered the intro. text*/ 
+.intro p {
+  /* add this alongside your other declarations */
+  margin: 0 auto;
+}
+
   /* Style <footer> with color, text, and margin*/
   footer {
     background: #fce138;
