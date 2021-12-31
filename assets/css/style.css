@@ -83,6 +83,27 @@ section {
     bottom: 120px;
     right: 140px;
   }
+/* Styled the <h3> element*/
+  .hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+/* Added some space to the <p> element*/
+  .hero-form p {
+    margin: 5px 0 15px 0;
+  }
+/* Styled the input fields: added a border, displayed each line separately, bigger font size, extended each input field box to the container, same footer color.*/
+  .form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+    /* Hero Style End */
 
   /* Style <footer> with color, text, and margin*/
   footer {
