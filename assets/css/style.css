@@ -77,3 +77,8 @@ header a {
   footer a {
     color: #024e76;
   }
+/* Styled a consistent padding and hero image to the <section> */
+section {
+  padding: 60px;
+  background-image: url("../images/hero-bg.jpg");
+}
