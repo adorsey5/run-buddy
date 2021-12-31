@@ -148,23 +148,40 @@ section {
   margin: 0 auto;
 }
 
-  /* Style <footer> with color, text, and margin*/
-  footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-  }
-  footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-  }
-  footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-  }
-  footer a {
-    color: #024e76;
-  }
+/* WHAT YOU DO SECTION */
+
+/* Centered the text and added yellow background color*/ 
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+
+.steps h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  border-color: #39a6b2;
+}
+
+/* Style <footer> with color, text, and margin*/
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+footer a {
+  color: #024e76;
+}
