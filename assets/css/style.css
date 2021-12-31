@@ -102,7 +102,18 @@ section {
     width: 100%;
     margin-bottom: 15px;
   }
-
+/* Added horizontal spacing to the <label> element in the radio buttons*/
+  .hero-form label {
+  margin: 0 5px;
+}
+/* Styled the "Get Running!" button with navy blue background and yellow text color*/
+.hero-form button {
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
     /* Hero Style End */
 
   /* Style <footer> with color, text, and margin*/
