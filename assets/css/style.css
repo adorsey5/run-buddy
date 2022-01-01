@@ -16,12 +16,14 @@ header {
     padding: 20px 35px;
     background-color: #39a6b2;
   }
-  /* Applies font styles and color only to <h1> header */
+/* Display <h1> elements inline with RUN BUDDY <a> element*/
+/* Style <header> with color, text, and margin*/
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
   }
   /* Applies styles and color to all of the <a> elements inside the header */
 header a {
@@ -45,16 +47,6 @@ header a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-  }
-
-/* Display <h1> elements inline with RUN BUDDY <a> element*/
-/* Style <header> with color, text, and margin*/
-  header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
   }
 
   /* Styled a consistent padding and hero image to the <section> */
@@ -93,17 +85,17 @@ section {
     margin: 5px 0 15px 0;
   }
 /* Styled the input fields: added a border, displayed each line separately, bigger font size, extended each input field box to the container, same footer color.*/
-  .form-input {
-    border: 1px solid #024e76;
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: #024e76;
-    width: 100%;
-    margin-bottom: 15px;
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
   }
 /* Added horizontal spacing to the <label> element in the radio buttons*/
-  .hero-form label {
+.hero-form label {
   margin: 0 5px;
 }
 /* Styled the "Get Running!" button with navy blue background and yellow text color*/
@@ -121,15 +113,6 @@ section {
 .intro {
   text-align: center;
 }
-/* Styled the <h2> element*/ 
-.intro h2 {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #fce138;
-}
 
 /* Styled the intro. text*/ 
 .intro p {
@@ -137,10 +120,6 @@ section {
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
-}
-/* Re-centered the intro. text*/ 
-.intro p {
-  /* add this alongside your other declarations */
   margin: 0 auto;
 }
 
@@ -150,24 +129,6 @@ section {
 .steps {
   text-align: center;
   background: #fce138;
-}
-/* Consolidated the selectors into generic class ".section-title" that all headings can pull from */ 
-/* Styled the <h2> heading*/ 
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
 }
 
 /* Stlyed the <div> and children elements (img, h3, p) in the steps class */ 
@@ -193,6 +154,24 @@ section {
 /* Styled <h3> to decrease the <span> text*/
 .steps span {
   font-size: 38px;
+}
+/* Consolidated the selectors into generic class ".section-title" that all headings can pull from */ 
+/* Styled the <h2> heading*/ 
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
 }
 
 /* MEET THE TRAINERS SECTION */
