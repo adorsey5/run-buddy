@@ -238,6 +238,7 @@ section {
   width: 400px;
   height: 400px;
 }
+/* Styled the map and contact info containers to site next to each other in a two column layout*/
 .contact-info div {
   width: 410px;
   display: inline-block;
@@ -246,8 +247,24 @@ section {
   margin: 30px 0 0 60px;
   color: white;
 }
+/* Applied font color, font size to <h3>. Added spacing, line height, font size, link color to the contact info. */
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
 
+.contact-info p, .contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
 
+.contact-info a {
+  color: #fce138;
+}
+
+/* REACH OUT STYLES END */
 /* Style <footer> with color, text, and margin*/
 footer {
   background: #fce138;
