@@ -11,7 +11,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
   }
 
-  /* Applies 20px to the top and bottom, then 35px to the left and right */
+  /* Applies flex properties to header */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -32,22 +32,26 @@ header a {
     text-decoration: none;
     color: #fce138;
   }
-  /* Moved the <nav> elements to the right side of the page.*/
+  
   /* Applies 7px to the top and bottom, then 0px to the left and right */
   header nav {
     margin: 7px 0;
   }
 
-  /* Moved the <nav> elements inline*/
-  header nav ul li {
-    display: inline;
+  /* Styled the <nav> items with flex properties*/
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
   }
 
-  /* Styled <a> elements inside the parent elements (header, nav, ul, and li)*/
+  /* Styled header children elements. Styled font size in a viewport width*/
   header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
   }
 
   /* Styled a consistent padding and hero image to the <section> */
