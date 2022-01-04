@@ -146,30 +146,55 @@ section {
 .steps {
   background: #fce138;
 }
-
-/* Stlyed the <div> and children elements (img, h3, p) in the steps class */ 
-.steps div {
-  margin-bottom: 80px;
+/*start adding the flexbox styles to each step */
+.step {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
-
-.steps img {
-  width: 15%;
-  margin: 10px 0;
-}
-
-.steps h3 {
+/* Scaled the steps with the page. apply more specific instructions for displaying flexbox children on the page, in relation to sibling elements */ 
+/*h3 is at least 30% wide and will receive any extra space in the container.*/
+.step h3 {
   color: #024e76;
   font-size: 46px;
-  margin-top: 10px;
+  flex: 1 30%;
+}
+/* .step-info will be at least 70% wide but will receive any extra space in the container at a 2-to-1 ratio. 
+In other words, it will receive two more units of unused space than a sibling with a flex-grow value of 1.*/
+.step-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/* restyle the text content elements. change font-size to 18px*/ 
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
 }
 
-.steps p {
-  color: #39a6b2;
-  font-size: 23px;
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
 }
-/* Styled <h3> to decrease the <span> text*/
-.steps span {
-  font-size: 38px;
+/* Styled the child elements (.step-img & .step-text), of parent element <div class="step-info",
+to have flex properties of 1 and 12> */ 
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+.step-text {
+  flex: 12;
+}
+/*Styled the <img> element to limit its width to be whatever its container is */
+.step-img img {
+  max-width: 100%;
 }
 /* Consolidated the selectors into generic class ".section-title" that all headings can pull from */ 
 /* Set up flex box properties*/ 
